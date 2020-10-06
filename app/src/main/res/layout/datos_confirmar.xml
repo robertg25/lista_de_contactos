@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Confirmardatos">
+
+    <TextView
+        android:id="@+id/tvConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar"
+        android:gravity="center"
+        android:textSize="@dimen/tamaño_texto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/espacio"
+        android:layout_below="@+id/tvConfirmar">
+    <TextView
+        android:id="@+id/tvNombre"
+        android:text="@string/"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio"
+        android:textSize="@dimen/tamaño_texto"/>
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio"
+        android:text="@string/fechaN"
+        android:textSize="@dimen/tamaño_texto"/>
+
+
+    <TextView
+        android:id="@+id/tvTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio"
+        android:text="@string/tel"
+        android:textSize="@dimen/tamaño_texto"/>
+
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espacio"
+        android:text="@string/email2"
+        android:textSize="@dimen/tamaño_texto"/>
+
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion2"
+        android:textSize="@dimen/tamaño_texto"
+        android:layout_marginTop="@dimen/espacio"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/espacio"
+        android:onClick="editar"
+        android:textSize="@dimen/tamaño_texto"
+        android:text="@string/editar"/>
+
+</LinearLayout>
+</RelativeLayout>
